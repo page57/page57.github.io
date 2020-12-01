@@ -27,7 +27,7 @@ tags: [TAG]     # TAG names should always be lowercase
 
 ### Timezone of date
 
-In order to accurately record the release date of a post, you should not only setup the `timezone` of `_config.yml` but also provide the the post's timezone in field `date` of its Front Matter block. Format: `+/-TTTT`, e.g. `+0800`.
+In order to accurately record the release date of a post, you should not only setup the `timezone` of `_config.yml` but also provide the post's timezone in field `date` of its Front Matter block. Format: `+/-TTTT`, e.g. `+0800`.
 
 ### Categories and Tags
 
@@ -126,4 +126,3 @@ If you want to display the **Liquid** snippet, surround the liquid code with `{%
 ## Learn More
 
 For more knowledge about Jekyll posts, visit the [Jekyll Docs: Posts](https://jekyllrb.com/docs/posts/).
-
