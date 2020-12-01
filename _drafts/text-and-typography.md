@@ -1,7 +1,7 @@
 ---
 title: Text and Typography
 author: Cotes Chung
-date: 2019-08-08 11:33:00 +0800
+# date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
@@ -92,7 +92,7 @@ _400px image width_
 In addition, you can use class `normal` , `left` and `right` to specify the image position (but in these case, the image caption is prohibited), for example:
 
 - Normal position
-  
+
   ![Desktop View](/assets/img/sample/mockup.png){: width="350" class="normal"}
 
 - Float to the left
