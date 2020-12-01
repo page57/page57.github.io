@@ -9,7 +9,7 @@
 #--------------------------
 title: Page 57                         # the main title
 
-tagline: A Literary Blog  # it will display as the sub-title
+tagline: A Literary Blog               # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   The reading, academic- and creative-writing blog of a perpetual student
@@ -17,26 +17,26 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'page57.github.io'
 
-author: Vrixton Phillips                  # change to your full name
+author: Vrixton Phillips                # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: page57             # change to your github username
+  username: page57                      # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: Vrixton Phillips                  # it will shows as the copyright owner in Footer
-  email: vrixton.phillips@gmail.com             # change to your email address
+  name: Vrixton Phillips                # it will shows as the copyright owner in Footer
+  email: vrixton.phillips@gmail.com     # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+#    - https://twitter.com/username      # change to your twitter homepage
+#    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/username
+#    - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 #--------------------------
