@@ -11,7 +11,7 @@ on:
 jobs:
   continuous-delivery:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     env:
       GEMS_PATH: ~/vendor/bundle
@@ -43,7 +43,7 @@ jobs:
       - name: Check baseurl
         run: |
           baseurl="$(grep '^baseurl:' _config.yml | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-          if [[ -n $baseurl ]]; then
+          if ([[ -n $baseurl ]]; then
             echo "SPEC_TEST=_site_no_baseurl" >> $GITHUB_ENV
           fi
 
